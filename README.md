@@ -12,4 +12,4 @@ Voting Ensemble Regressor. It combines multiple diverse regression models—a Gr
 
 #output comments
 Unexpected Performance Drop: Interestingly, the simpler Linear Regression model outperformed the complex Voting Ensemble on our 20-sample test set (yielding a higher $R^2$$R^2$ of 0.59 versus 0.51).
-This was caused by the data scale as methods like Gradient Boosting and Random forest used in voting Ensemble regressor model require large amount of data to learn robust patterns
+This was caused by the data scale for test partition as it contains only 20 samples since methods like Gradient Boosting and Random forest used in voting Ensemble regressor model require large amount of data to learn robust patterns
